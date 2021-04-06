@@ -1,0 +1,8 @@
+.about{left: 5vw; color: white; font-size: 1vw} .about1{font-size: 1vw;margin-left:1vw; color: white}
+.isi { margin-left: 10vw; margin-right: 10vw; text-align: justify; 
+    font-size: 1.5vw; font-family: Lucida; font-style: normal;}
+h3{font-family: Lucida; font-size: 2vw} h1{font-size: 2.5vw; text-align: center}
+li.text{margin-left: 10px} .footimg{ margin-right: 20px}
+form.form-inline{margin-left: 1vw; size: 5%}
+#ContainerLogin{
+    background-color: white; width: 90%; border-radius: 15px; box-shadow:0 1px 5px rgba(85, 85, 85, 0.80);}

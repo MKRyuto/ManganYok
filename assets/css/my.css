@@ -1,0 +1,51 @@
+.bg-gradient-primary-edit{
+    background-color: #E6E6E6;
+    background-image: unset
+}
+
+.btn-login{
+    background-color: #6C8F7A;
+    border-color: #6C8F7A;
+    color: white;
+    font-size: 5px
+}
+.btn-login:hover{
+    color: #cccccc
+}
+
+.btn-login:active{
+    border-color: #6C8F7A8f;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(109, 144, 123, 0.75);
+    box-shadow: 0 0 0 0.2rem rgba(109, 144, 123, 0.75);
+}
+
+.btn-login:focus, .btn-login.focus {
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(109, 144, 123, 0.75);
+    box-shadow: 0 0 0 0.2rem rgba(109, 144, 123, 0.75);
+  }
+
+.login-color{
+    color: #6C8F7A;
+}
+
+.login-color:hover{
+    color: #6C8F7A;
+}
+
+.form-control-edit:focus {
+    color: #6e707e;
+    background-color: #fff;
+    border-color: #6C8F7A;
+    outline: 0;
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(109, 144, 123, 0.75);
+    box-shadow: 0 0 0 0.2rem rgba(109, 144, 123, 0.75);
+  }
+
+  .bg-gradient-edit{
+    background-color: #6C8F7A;
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #6C8F7A), to(rgb(115, 155, 131)));
+    background-image: linear-gradient(180deg, #6C8F7A 10%, rgb(115, 155, 131) 100%);
+    background-size: cover;
+  }

@@ -1,0 +1,90 @@
+#Text{
+    margin-top: 3%;
+    margin:auto;
+}
+
+#carouselExampleIndicators{
+    margin-top: 2%;
+}
+
+#container_2{
+    background-color:gray;
+}
+
+.card{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#jumbotron{
+    background-color: rgb(32, 175, 175)
+}
+#container_3{
+    width:121px;
+    height:93px;
+    margin-left:43%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#icon_1{
+    width: 121px;
+    height: 93px;
+}
+#text_icon1{
+    margin-left:43%;
+    margin-top:-2%;
+}
+#icon_2{
+    position: absolute;
+    width:151px;
+    height:111px;
+    margin-left:24%;
+    margin-top:-6.7%;
+}
+#icon_3{
+    width:151px;
+    height:111px;
+    margin-right:100%;
+}
+
+.container_4{
+    width:151px;
+    height:111px;
+}
+#text_icon2{
+    position: absolute;
+    margin-left:25%;
+    margin-right: 10%;
+
+}
+#text_icon3{
+    position:absolute;
+    margin-left:1%;
+    
+}
+#icon_4{
+    position:absolute;
+    width:151px;
+    height:111px;
+    margin-left: 50%;
+    margin-top:-12.5%;
+
+}
+#text_icon4{
+    position: absolute;
+    margin-left:50%;
+    margin-top:-6.5%;
+}
+#image1{
+    position:absolute;
+    margin-left:19%;
+    height: 400px;
+}
+#Card1{
+    position:absolute;
+    margin-left: 2%;
+    opacity: 0.75;
+}
+body{
+    background-color:whitesmoke;
+}

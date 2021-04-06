@@ -1,0 +1,32 @@
+#filter{
+    margin-top: -2.6%;
+    
+}
+
+#carouselExampleFade{
+    margin-top: 2%;
+    background-color: rgb(40, 82, 61);
+}
+
+.card{
+    margin-top: 3%;
+    margin-bottom: 4%;
+}
+
+#badge{
+    margin-top: 3%;
+    margin-left: 6%;
+}
+
+#carouselExampleIndicators{
+    margin-top: 2%;
+    background-color: rgb(40, 82, 61);
+}
+
+#jumbotron{
+    background-image: url(https://mdbootstrap.com/img/Photos/Others/gradient1.jpg);
+}
+
+#button{
+    margin-top:-25px;
+}

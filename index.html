@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.ico" />
+  <title>Buat Post</title>
+  <link rel="stylesheet" href="dist/summernote-bs4.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/ManganYok.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!--Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark secondary-color lighten-1 green darken-1">
+    <a class="navbar-brand mr-5" href="#">ManganYok</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-555"
+      aria-controls="navbarSupportedContent-555" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent-555">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active mr-4">
+          <a class="nav-link" href="#">Home
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item dropdown mr-4">
+          <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-555" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Post
+          </a>
+          <div class="dropdown-menu dropdown-secondary" aria-labelledby="navbarDropdownMenuLink-555">
+            <a class="dropdown-item" href="#">Buat Post</a>
+            <a class="dropdown-item" href="#">Lihat Post</a>
+          </div>
+        </li>
+        <li class="nav-item mr-4">
+          <a class="nav-link" href="#">Filter</a>
+        </li>
+        <li class="nav-item mr-4">
+          <a class="nav-link" href="#">Ketentuan</a>
+        </li>
+        <li class="nav-item mr-4">
+          <a class="nav-link" href="#">FAQs</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav ml-auto nav-flex-icons">
+        <li class="nav-item mr-5">
+          <form class="form-inline mr-auto">
+            <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-mdb-color btn-rounded btn-sm my-0 ml-sm-2   blue darken-1"
+              type="submit">Search</button>
+          </form>
+        </li>
+        <li class="nav-item avatar dropdown">
+          <a class="nav-link dropdown-toggle p-0" id="navbarDropdownMenuLink-55" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <span class="navbar-text white-text mr-2">
+              Kanzaki Ryuto
+            </span>
+            <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-5.jpg" class="rounded-circle z-depth-0"
+              alt="avatar image" height="35">
+          </a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-secondary" aria-labelledby="navbarDropdownMenuLink-55">
+            <a class="dropdown-item" href="#">Profil</a>
+            <a class="dropdown-item" href="#">Admin</a>
+            <a class="dropdown-item" href="#">Logout</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--/.Navbar -->
+
+  <!-- Body -->
+  <div class="bg"></div>
+  <div class="position-relative w-90 p-3 ml-auto mr-auto mt-3 rounded-lg mb-3">
+    <div class="row">
+      <div class="column w-30 pl-4" style="margin:auto">
+        <h4><b>Nasi Kuning Banjarmasin</b></h4>
+      </div>
+      <div class="column w-60" style="margin:auto">
+        <hr>
+      </div>
+      <div class=" column w-10 pr-4" style="text-align: right; margin:auto">
+        <a href="" style="color:black;">
+          <h5><i class="fas fa-print"></i> Print</h5>
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column w-60 m-3" style="position: relative;">
+        <img src="img/Cara-Membuat-Nasi-Kuning.jpg" alt="Girl in a jacket" height="450"
+          style="object-fit:cover; width:100%; border-radius: 20px;">
+        <button type="button" class="btn deep-orange darken-4 btn-sm btn-watch" style="color:white;">Tonton
+          Video</button>
+        <button type="button" class="btn deep-orange darken-4 p-1 btn-report"><i class="fas fa-flag" aria-hidden="true"
+            style="color:white;"></i></button>
+      </div>
+      <div class="column w-37">
+        <div class="row m-3">
+          <img src="img/Cara-Membuat-Nasi-Kuning.jpg" alt="Girl in a jacket" height="216"
+            style="object-fit:cover; width:100%; border-radius: 20px;">
+        </div>
+        <div class="row m-3 mt-3">
+          <img src="img/Cara-Membuat-Nasi-Kuning.jpg" alt="Girl in a jacket" height="216"
+            style="object-fit:cover; width:100%; border-radius: 20px;">
+        </div>
+      </div>
+    </div>
+
+    <div class="row mt-0">
+      <div class="column w-60 ml-3 mr-3" style="border-radius:10px;">
+        <div class="column w-100 white p-3" style="border-radius:10px;">
+          <span><b>Type : </b>Makanan Utama &nbsp;&nbsp;&nbsp;<b>Daerah : </b>Banjarmasin</span>
+          <hr>
+          <p>     <span style="font-family: Helvetica; font-size: 14px; text-align: justify;">Lorem ipsum dolor sit
+              amet,
+              consectetur adipiscing elit. Ut vitae tincidunt magna. Nullam varius fringilla nunc, sed luctus nulla
+              posuere a. Nullam eu porttitor ipsum. Donec at nisl tincidunt, molestie est ac, ultrices urna.
+              Pellentesque
+              efficitur erat justo, eu maximus augue molestie vitae. Morbi rutrum nisi justo, at imperdiet risus
+              accumsan
+              nec. Donec auctor egestas ligula non maximus. Quisque nec lacus odio. Ut finibus, mi vel pulvinar
+              ullamcorper, sapien purus posuere lorem, ac porta diam mi in erat. Fusce gravida vehicula dolor, ut
+              ullamcorper ante hendrerit nec.</span>
+          </p>
+          <h5><b>Metode Step by Step</b></h5>
+          <hr>
+          <p><b>Step 1 :</b></p>
+          <p><span style="font-family: Helvetica; font-size: 14px; text-align: justify;">Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Ut vitae tincidunt magna. Nullam varius fringilla nunc, sed luctus nulla
+              posuere a. Nullam eu porttitor ipsum. Donec at nisl tincidunt, molestie est ac, ultrices urna.</span></p>
+          <p><span style="font-weight: bolder;">Step 2:</span></p>
+          <p><span style="font-family: Helvetica; font-size: 14px; text-align: justify;">Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Ut vitae tincidunt magna. Nullam varius fringilla nunc, sed luctus nulla
+              posuere a. Nullam eu porttitor ipsum. Donec at nisl tincidunt, molestie est ac, ultrices urna.</span></p>
+          <p><span style="font-weight: bolder;">Step 3 :</span></p>
+          <p><span style="font-family: Helvetica; font-size: 14px; text-align: justify;">Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Ut vitae tincidunt magna. Nullam varius fringilla nunc, sed luctus nulla
+              posuere a. Nullam eu porttitor ipsum. Donec at nisl tincidunt, molestie est ac, ultrices urna.</span></p>
+          <p><span style="font-weight: bolder;">Step 4 :</span></p>
+          <p><span style="font-family: Helvetica; font-size: 14px; text-align: justify;">Lorem ipsum dolor sit amet,
+              consectetur adipiscing elit. Ut vitae tincidunt magna. Nullam varius fringilla nunc, sed luctus nulla
+              posuere a. Nullam eu porttitor ipsum. Donec at nisl tincidunt, molestie est ac, ultrices urna.</span></p>
+          <p></p>
+          <hr>
+          <span><b>TAG : </b><span class="tag-border">Makanan Utama</span> &nbsp;&nbsp;&nbsp;<b></b><span
+              class="tag-border">Banjarmasin</span></span>
+        </div>
+        <div class="column w-100 white p-3 mt-3 mb-3" style="border-radius:10px;">
+          <div class="row p-1 ml-4">
+            <div class="column w-30">
+              <img src="img/ayase.png" alt="Girl in a jacket" height="180" width="180"
+                style="object-fit:cover; border-radius: 50%;">
+            </div>
+            <div class="column w-60">
+              <h3 style="color:#871818;"><b>Sekilah Soal Penulis</b></h3>
+              <h4 class="mt-3 mb-4"><b>Randi D'Insider</b></h4>
+              <h5>Aku saya Kamu, Tapi Kamu sayang Dia</h5>
+              <a href="" style="color:#226478;">
+                <h6 style="overflow:hidden;">http://www.intagram.com/randi_prawira/</h6>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row w-100 mt-3 m-0">
+          <div class="column w-31 white m-2" style="border-radius:10px;">
+            <div class="column w-100 mb-3" style="border-radius:10px;">
+              <img src="img/Cara-Membuat-Nasi-Kuning.jpg" alt="Girl in a jacket" height="130"
+                style="object-fit:cover; width:100%; border-radius:10px 10px 0px 0px;">
+              <h6 class="mt-2 ml-2" style="color:#871818; margin:auto;"><i><b>Nasi Kuning Banjarmasin</b></i></h6>
+              <hr class="ml-2 mr-2">
+              <span class="p-2"><b>Type : </b>Makanan Utama</span>
+              <span class="p-2"><b>Daerah : </b>Banjarmasin</span>
+            </div>
+          </div>
+          <div class="column w-31 white m-2" style="border-radius:10px;">
+            <div class="column w-100 mb-3" style="border-radius:10px;">
+              <img src="img/Cara-Membuat-Nasi-Kuning.jpg" alt="Girl in a jacket" height="130"
+                style="object-fit:cover; width:100%; border-radius:10px 10px 0px 0px;">
+              <h6 class="mt-2 ml-2" style="color:#871818; margin:auto;"><i><b>Nasi Kuning Banjarmasin</b></i></h6>
+              <hr class="ml-2 mr-2">
+              <span class="p-2"><b>Type : </b>Makanan Utama</span>
+              <span class="p-2"><b>Daerah : </b>Banjarmasin</span>
+            </div>
+          </div>
+          <div class="column w-31 white m-2" style="border-radius:10px;">
+            <div class="column w-100 mb-3" style="border-radius:10px;">
+              <img src="img/Cara-Membuat-Nasi-Kuning.jpg" alt="Girl in a jacket" height="130"
+                style="object-fit:cover; width:100%; border-radius:10px 10px 0px 0px;">
+              <h6 class="mt-2 ml-2" style="color:#871818; margin:auto;"><i><b>Nasi Kuning Banjarmasin</b></i></h6>
+              <hr class="ml-2 mr-2">
+              <span class="p-2"><b>Type : </b>Makanan Utama</span>
+              <span class="p-2"><b>Daerah : </b>Banjarmasin</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column w-37">
+        <div class="row ml-3 mr-3 white p-3" style="border-radius:10px;">
+          <div class="column w-100">
+            <h5><i class="fas fa-book"></i>&nbsp;<b>Bahan</b></h5>
+            <hr>
+          </div>
+          <div class="column w-100">
+            <ul>
+              <li><span style="font-size: 1rem;">Beras : 1 kg</span><br></li>
+              <li>Santan&nbsp; : 900 ml</li>
+              <li>Kelapa Tua : 1 buah</li>
+              <li>Kunyit : 5 cm</li>
+              <li>Serai 2 : batang</li>
+              <li>Daun Salam : 4 lembar</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row ml-3 mr-3 mt-3 white p-3" style="border-radius:10px;">
+          <div class="column w-100">
+            <h5><i class="fas fa-heartbeat"></i>&nbsp;<b>Nutrisi</b></h5>
+            <hr>
+          </div>
+          <div class="column w-100">
+            <ul>
+              <li>Kilojoule : 627.6 kj</li>
+              <li>Kalori : 150 kkal</li>
+              <li> Lemak : 0.27g</li>
+              <li>Protein : 2.99g</li>
+              <li>Karbohidrat : 32.96g</li>
+              <li>Sodium : 869 mg</li>
+              <li>Kalium : 70mg</li>
+            </ul>
+          </div>
+        </div>
+        <div class="column w-100 mt-0 p-3 mb-pop" style="position: relative;;">
+          <img src="img/Cara-Membuat-Nasi-Kuning.jpg" alt="Girl in a jacket" height="180"
+            style="object-fit:cover; width:100%; border-radius: 20px;">
+          <a href="#" class="badge badge-success badge-pos m-4">Nasi Kuning Banjarmasin</a>
+        </div>
+        <div class="column w-100 mt-0 p-3 mb-pop" style="position: relative;;">
+          <img src="img/Cara-Membuat-Nasi-Kuning.jpg" alt="Girl in a jacket" height="180"
+            style="object-fit:cover; width:100%; border-radius: 20px;">
+          <a href="#" class="badge badge-success badge-pos m-4">Nasi Kuning Banjarmasin</a>
+        </div>
+        <div class="column w-100 mt-0 p-3 mb-pop" style="position: relative;;">
+          <img src="img/Cara-Membuat-Nasi-Kuning.jpg" alt="Girl in a jacket" height="180"
+            style="object-fit:cover; width:100%; border-radius: 20px;">
+          <a href="#" class="badge badge-success badge-pos m-4">Nasi Kuning Banjarmasin</a>
+        </div>
+        <div class="column w-100 mt-0 p-3 mb-pop" style="position: relative;;">
+          <img src="img/Cara-Membuat-Nasi-Kuning.jpg" alt="Girl in a jacket" height="180"
+            style="object-fit:cover; width:100%; border-radius: 20px;">
+          <a href="#" class="badge badge-success badge-pos m-4">Nasi Kuning Banjarmasin</a>
+        </div>
+        <div class="column w-100 mt-0 p-3 mb-pop" style="position: relative;;">
+          <img src="img/Cara-Membuat-Nasi-Kuning.jpg" alt="Girl in a jacket" height="180"
+            style="object-fit:cover; width:100%; border-radius: 20px;">
+          <a href="#" class="badge badge-success badge-pos m-4">Nasi Kuning Banjarmasin</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- BATAS -->
+  </div>
+
+
+
+
+  <!-- Body -->
+
+  <!-- Footer -->
+  <footer class="page-footer font-small green pt-4">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-uppercase">ManganYok</h5>
+          <p>Merupakan Website Resep Masakan
+            yang menyediakan berbagai Resep
+            masakan dari berbagai Daerah dan
+            Tipe dari berbagai macam orang</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix 
+        w-100 d-md-none pb-3">
+
+
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Menu Anda</h6>
+          <hr class="white accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a href="#!">Buat Post</a>
+          </p>
+          <p>
+            <a href="#!">Lihat Post</a>
+          </p>
+          <p>
+            <a href="#!">Akun Anda</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Menu Web</h6>
+          <hr class="white accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <a href="#!">Filter</a>
+          </p>
+          <p>
+            <a href="#!">Ketentuan</a>
+          </p>
+          <p>
+            <a href="#!">FAQs</a>
+          </p>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h6 class="text-uppercase font-weight-bold">Contact</h6>
+          <hr class="white accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>
+            <i class="fab fa-facebook mr-3"></i> ManganYok</p>
+          <p>
+            <i class="fas fa-envelope mr-3"></i> web.manganyok@gmail.com</p>
+          <p>
+            <i class="fas fa-phone mr-3"></i> +62 8233 4053 233</p>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3 green darken-1">© 2019 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> ManganYok</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <script src="dist/summernote-bs4.js"></script>
+</body>
+
+</html>
